@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Extension Name</key>
+	<string>Splashtop</string>
+	<key>Extension Identifier</key>
+	<string>com.spokanemac.popclip.extension.splashtop</string>
+	<key>Extension Description</key>
+	<string>Open Splashtop session with the selected MAC address.</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>After</key>
+			<string>copy-result</string>
+			<key>Shell Script File</key>
+			<string>splashtop.sh</string>
+			<key>Image File</key>
+			<string>splashtop.png</string>
+			<key>Title</key>
+			<string>Splashtop</string>
+			<key>Regular Expression</key>
+			<string>(?s)^([0-9a-fA-F][0-9a-fA-F]:){5}([0-9a-fA-F][0-9a-fA-F])$</string>
+		</dict>
+	</array>
+</dict>
+</plist>
